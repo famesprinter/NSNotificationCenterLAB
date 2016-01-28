@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="i0B-7s-JLl">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Page 2-->
+        <scene sceneID="shl-MY-jh8">
+            <objects>
+                <viewController id="pvm-GQ-eHC" customClass="ViewControllerTwo" customModule="NSNotificationCenterLAB" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fEt-3C-rKm"/>
+                        <viewControllerLayoutGuide type="bottom" id="7hl-lw-E85"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZEE-Jj-6JO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="zzZZ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ase-qn-rSG">
+                                <rect key="frame" x="266.5" y="282" width="67.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="selectedControlColor" catalog="System" colorSpace="catalog"/>
+                        <constraints>
+                            <constraint firstItem="ase-qn-rSG" firstAttribute="centerX" secondItem="ZEE-Jj-6JO" secondAttribute="centerX" id="Yqf-tW-nyf"/>
+                            <constraint firstItem="ase-qn-rSG" firstAttribute="centerY" secondItem="ZEE-Jj-6JO" secondAttribute="centerY" id="lL0-cI-Bxe"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Page 2" id="Nc3-l5-aS0"/>
+                    <connections>
+                        <outlet property="notiLabel" destination="ase-qn-rSG" id="waG-bm-JIk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tsu-gO-DYz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973" y="1103"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="eCM-dg-Sd7">
+            <objects>
+                <viewController id="rXK-Zr-472" customClass="ViewControllerFour" customModule="NSNotificationCenterLAB" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eIx-pS-Rnq"/>
+                        <viewControllerLayoutGuide type="bottom" id="OdZ-1d-gVR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d47-Bf-u5e">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="zzZZ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N3k-qJ-bFH">
+                                <rect key="frame" x="267" y="282" width="67.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="N3k-qJ-bFH" firstAttribute="centerX" secondItem="d47-Bf-u5e" secondAttribute="centerX" id="Utc-bI-t6K"/>
+                            <constraint firstItem="N3k-qJ-bFH" firstAttribute="centerY" secondItem="d47-Bf-u5e" secondAttribute="centerY" id="YOC-jI-yDB"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="eaN-Hm-9ZL"/>
+                    <connections>
+                        <outlet property="notiLabel" destination="N3k-qJ-bFH" id="E9F-0b-lJv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R2n-g7-jEa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-153" y="1811"/>
+        </scene>
+        <!--Page 3-->
+        <scene sceneID="RMF-MH-e8T">
+            <objects>
+                <viewController id="Zkq-oW-Wkm" customClass="ViewControllerThree" customModule="NSNotificationCenterLAB" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="24a-2s-Lh0"/>
+                        <viewControllerLayoutGuide type="bottom" id="uqL-2F-Dej"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3xL-Df-xg8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="zzZZ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5PN-W7-V3a">
+                                <rect key="frame" x="267" y="282" width="67.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.79184612450000003" green="1" blue="0.54981917700000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="5PN-W7-V3a" firstAttribute="centerY" secondItem="3xL-Df-xg8" secondAttribute="centerY" id="koM-R1-2Xr"/>
+                            <constraint firstItem="5PN-W7-V3a" firstAttribute="centerX" secondItem="3xL-Df-xg8" secondAttribute="centerX" id="voO-ae-C1D"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Page 3" id="phD-0i-1mP"/>
+                    <connections>
+                        <outlet property="notiLabel" destination="5PN-W7-V3a" id="EYZ-BI-VGg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8vc-ar-Rso" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="569" y="1811"/>
+        </scene>
+        <!--Page 1-->
+        <scene sceneID="Gi6-07-ZFA">
+            <objects>
+                <viewController id="zCC-3O-uhS" customClass="ViewControllerOne" customModule="NSNotificationCenterLAB" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2Ei-VK-vbO"/>
+                        <viewControllerLayoutGuide type="bottom" id="xJr-DP-0kA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8X9-PQ-8If">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QsO-ga-8nF">
+                                <rect key="frame" x="265" y="282" width="71" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Noti!!!!!!"/>
+                                <connections>
+                                    <action selector="noti" destination="zCC-3O-uhS" eventType="touchUpInside" id="4Ge-PH-f6J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QsO-ga-8nF" firstAttribute="centerY" secondItem="8X9-PQ-8If" secondAttribute="centerY" id="2F1-nC-B5d"/>
+                            <constraint firstItem="QsO-ga-8nF" firstAttribute="centerX" secondItem="8X9-PQ-8If" secondAttribute="centerX" id="70E-1G-0Yl"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Page 1" id="wNu-fR-uM5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IdR-nZ-dfW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973" y="400"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="3hi-e7-KcP">
+            <objects>
+                <tabBarController id="i0B-7s-JLl" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="eTR-Gr-Vnu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="zCC-3O-uhS" kind="relationship" relationship="viewControllers" id="WfM-Ga-UL1"/>
+                        <segue destination="pvm-GQ-eHC" kind="relationship" relationship="viewControllers" id="nfO-XJ-DpK"/>
+                        <segue destination="Zkq-oW-Wkm" kind="relationship" relationship="viewControllers" id="S9x-9a-FXQ"/>
+                        <segue destination="rXK-Zr-472" kind="relationship" relationship="viewControllers" id="CQC-jA-vJY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="65e-MQ-UJo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="234" y="721"/>
+        </scene>
+    </scenes>
+</document>
