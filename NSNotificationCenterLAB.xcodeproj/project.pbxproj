@@ -14,7 +14,6 @@
 		F01DEA951C5A093800F9DFE1 /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DEA941C5A093800F9DFE1 /* ViewControllerOne.swift */; };
 		F01DEA971C5A094500F9DFE1 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DEA961C5A094500F9DFE1 /* ViewControllerTwo.swift */; };
 		F01DEA991C5A09C500F9DFE1 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DEA981C5A09C500F9DFE1 /* ViewControllerThree.swift */; };
-		F01DEA9B1C5A0B6C00F9DFE1 /* Ninja-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F01DEA9A1C5A0B6C00F9DFE1 /* Ninja-50.png */; };
 		F01DEA9D1C5A0E2300F9DFE1 /* ViewControllerFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DEA9C1C5A0E2300F9DFE1 /* ViewControllerFour.swift */; };
 		F01DEA9F1C5A1A0200F9DFE1 /* notiIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DEA9E1C5A1A0200F9DFE1 /* notiIdentifier.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		F01DEA941C5A093800F9DFE1 /* ViewControllerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
 		F01DEA961C5A094500F9DFE1 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 		F01DEA981C5A09C500F9DFE1 /* ViewControllerThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
-		F01DEA9A1C5A0B6C00F9DFE1 /* Ninja-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ninja-50.png"; sourceTree = "<group>"; };
 		F01DEA9C1C5A0E2300F9DFE1 /* ViewControllerFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFour.swift; sourceTree = "<group>"; };
 		F01DEA9E1C5A1A0200F9DFE1 /* notiIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notiIdentifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +69,6 @@
 				F01DEA9C1C5A0E2300F9DFE1 /* ViewControllerFour.swift */,
 				F01DEA9E1C5A1A0200F9DFE1 /* notiIdentifier.swift */,
 				F01DEA861C5A023100F9DFE1 /* Main.storyboard */,
-				F01DEA9A1C5A0B6C00F9DFE1 /* Ninja-50.png */,
 				F01DEA891C5A023100F9DFE1 /* Assets.xcassets */,
 				F01DEA8B1C5A023100F9DFE1 /* LaunchScreen.storyboard */,
 				F01DEA8E1C5A023100F9DFE1 /* Info.plist */,
@@ -138,7 +135,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01DEA8D1C5A023100F9DFE1 /* LaunchScreen.storyboard in Resources */,
-				F01DEA9B1C5A0B6C00F9DFE1 /* Ninja-50.png in Resources */,
 				F01DEA8A1C5A023100F9DFE1 /* Assets.xcassets in Resources */,
 				F01DEA881C5A023100F9DFE1 /* Main.storyboard in Resources */,
 			);
